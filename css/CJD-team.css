@@ -1,0 +1,81 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0;list-style:none}
+html,body{font-family:"Consolas","Microsoft yahei","宋体";background:#fff;-webkit-text-size-adjust:100%;
+    width: 100%;}
+a:link{text-decoration:none}
+a:visited{text-decoration:none}
+a:active{text-decoration:none}
+a:hover{text-decoration:none}
+img{border:0;vertical-align:middle}
+input,button{border: 0;outline: none;}
+.left{float: left;display: inline;}
+.right{float: right;display: inline;}
+.clear:after{content: "";display: block;clear: both;}
+.clear{zoom: 1;}
+.cjd-wrap{width: 100%;}
+
+.cjd-team-wrap{
+    width: 100%;
+    padding: 132px 0;
+    background-color: #F6F6F6;
+}
+.cjd-team{
+    width: 1240px;
+    height: auto;
+    margin: 0 auto;
+}
+.cjd-team-title h6{
+    font-size: 18px;
+    font-weight: normal;
+}
+.cjd-team-title p{
+    color: #6A6A6A;
+    font-size: 12px;
+    line-height: 22px;
+}
+.cjd-team-list-wrap{
+    width: 1200px;
+    margin: 58px 0 0 40px;
+}
+.cjd-team-list{
+    width: 1160px;
+    height: 180px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.cjd-team-list a{
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    margin-right: 60px;
+}
+.cjd-team-list a img{
+    width: 100%;
+    height: auto;
+    transition: all 0.6s ease 0s;
+}
+.cjd-team-list ul{
+    transition: all 0.8s ease 0s;
+}
+.cjd-team-list-title{
+    color: #5a5a5a;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 42px;
+}
+.cjd-team-list-job{
+    font-size: 12px;
+    color: #9a9a9a;
+}
+.cjd-team-list-job span{
+    font-size: 22px;
+    margin-left: 700px;
+}
+.cjd-team-list-text{
+    width: 480px;
+    font-size: 12px;
+    color: #949494;
+    margin-top: 15px;
+    line-height: 18px;
+}

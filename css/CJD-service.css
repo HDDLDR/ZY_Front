@@ -1,0 +1,79 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0;list-style:none}
+html,body{font-family:"Consolas","Microsoft yahei","宋体";background:#fff;-webkit-text-size-adjust:100%;
+    width: 100%;}
+a:link{text-decoration:none}
+a:visited{text-decoration:none}
+a:active{text-decoration:none}
+a:hover{text-decoration:none}
+img{border:0;vertical-align:middle}
+input,button{border: 0;outline: none;}
+.left{float: left;display: inline;}
+.right{float: right;display: inline;}
+.clear:after{content: "";display: block;clear: both;}
+.clear{zoom: 1;}
+.cjd-wrap{width: 100%;}
+
+.cjd-service-wrap{
+    width: 100%;
+    padding: 152px 0 200px 0;
+    background-color: #F6F6F6;
+}
+.cjd-service{
+    width: 1240px;
+    height: 486px;
+    margin: 0 auto;
+}
+.cjd-service-title h6{
+    font-size: 18px;
+    font-weight: normal;
+}
+.cjd-service-title p{
+    color: #6A6A6A;
+    font-size: 12px;
+    line-height: 22px;
+}
+.cjd-service-list{
+    width: 600px;
+    height: 181px;
+    margin-top: 40px;
+    background-color: #FFFFFF;
+    transition: 0.2s;
+}
+.cjd-service-list:hover{
+    box-shadow:0 0 24px #a8a8a8;
+    -webkit-box-shadow:0 0 24px #a8a8a8;
+}
+.cjd-service-list p{
+    width: 0;
+    height: 1px;
+    background-color: #5C5C5C;
+}
+.cjd-service-list:hover .cjd-service-list p{
+    width: 600px;
+}
+.cjd-service-list-img{
+    width: 160px;
+    height: 110px;
+    margin: 35px 30px;
+}
+.cjd-service-list-text{
+    width: 270px;
+    margin: 48px 0;
+    transition: 0.6s;
+}
+.cjd-service-list-text h5{
+    font-size: 16px;
+    color: #404040;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.cjd-service-list-text h6{
+    font-size: 12px;
+    color: #b1b1b1;
+    font-weight: normal;
+    margin-bottom: 10px;
+    line-height: 22px;
+}
+.cjd-service-list-text:hover{
+    transform: translate(30px);
+}

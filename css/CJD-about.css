@@ -1,0 +1,64 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0;list-style:none}
+html,body{font-family:"Consolas","Microsoft yahei","宋体";background:#fff;-webkit-text-size-adjust:100%;
+    width: 100%;}
+a:link{text-decoration:none}
+a:visited{text-decoration:none}
+a:active{text-decoration:none}
+a:hover{text-decoration:none}
+img{border:0;vertical-align:middle}
+input,button{border: 0;outline: none;}
+.left{float: left;display: inline;}
+.right{float: right;display: inline;}
+.clear:after{content: "";display: block;clear: both;}
+.clear{zoom: 1;}
+.cjd-wrap{width: 100%;}
+
+.cjd-about-wrap{
+    width: 100%;
+    padding: 110px 0 170px 0;
+    background-color: #f6f6f6;
+}
+.cjd-about{
+    width: 1180px;
+    height: auto;
+    margin: 0 auto;
+}
+.cjd-about-banner{
+    width: 1180px;
+    height: 440px;
+    margin-bottom: 48px;
+    background: url("../images/jt-banner.jpg") no-repeat center;
+}
+.cjd-about-left{
+    padding-top: 34px;
+}
+.cjd-about-left h5{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    color: rgb(38, 38, 38);
+}
+.cjd-about-left p{
+    font-size: 12px;
+    line-height: 24px;
+    color: rgb(165, 165, 165);
+}
+.cjd-about-right{
+    width: 750px;
+}
+.cjd-about-right li{
+    padding: 32px 0;
+    border-bottom: 1px dashed #6a6a6a;
+}
+.cjd-about-right li h5{
+    font-size: 16px;
+    line-height: 24px;
+    color: #6a6a6a;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.cjd-about-right li p{
+    line-height: 24px;
+    font-size: 13px;
+    color: #6a6a6a;
+}

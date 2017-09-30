@@ -1,0 +1,61 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0;list-style:none}
+html,body{font-family:"Consolas","Microsoft yahei","宋体";background:#fff;-webkit-text-size-adjust:100%;
+    width: 100%;}
+a:link{text-decoration:none}
+a:visited{text-decoration:none}
+a:active{text-decoration:none}
+a:hover{text-decoration:none}
+img{border:0;vertical-align:middle}
+input,button{border: 0;outline: none;}
+.left{float: left;display: inline;}
+.right{float: right;display: inline;}
+.clear:after{content: "";display: block;clear: both;}
+.clear{zoom: 1;}
+.cjd-wrap{width: 100%;}
+
+.cjd-teamone-wrap{
+    width: 100%;
+    padding: 132px 0;
+}
+.cjd-teamone{
+    width: 1180px;
+    height: auto;
+    margin: 0 auto;
+}
+.cjd-teamone-left{
+    width: 380px;
+    height: 454px;
+    overflow: hidden;
+}
+.cjd-teamone-left img{
+    width: 100%;
+    height: auto;
+}
+.cjd-teamone-right{
+    width: 740px;
+    height: auto;
+}
+.cjd-teamone-right h5{
+    font-size: 20px;
+    color: #343434;
+    font-weight: normal;
+}
+.cjd-teamone-right h5 span{
+    color: #626262;
+    font-size: 14px;
+}
+.cjd-teamone-right p{
+    font-size: 16px;
+    line-height: 52px;
+    color: #6a6a6a;
+    margin-top: 16px;
+    border-bottom: 1px dashed #d3d3d3;
+}
+.cjd-teamone-right ul{
+    margin-top: 24px;
+}
+.cjd-teamone-right ul li{
+    line-height: 26px;
+    font-size: 13px;
+    color: #6a6a6a;
+}
