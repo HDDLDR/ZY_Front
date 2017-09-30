@@ -1,0 +1,17 @@
+
+<link href="css/Header&Footer.css" rel="stylesheet" media="all">
+
+	<!-- Ê×Ò³_µ¼º½ -->
+	<div class="header">
+		<div id="header">
+		<div id="logo">
+			<img src="images/Logo.png" alt="ZoeDesign" />
+		</div>
+		<ul class="menu_nav"> <li class="clear"></li></ul>
+	    <div class="clear"></div>
+	  </div>
+	</div>
+	<!--  end -->
+
+
+<script src="js/Header&Footer.js"></script>
