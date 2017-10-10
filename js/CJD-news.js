@@ -27,7 +27,7 @@ $(function () {
     //品牌故事
     $.ajax({
         type:'post',
-        url:'http://localhost:3000/news1/news1',
+        url:HTTP+'news1/news1',
         success:function(data) {
             console.log(data);
             for(var i=0;i<data.length;i++){
@@ -48,7 +48,7 @@ $(function () {
     //行业资讯
     $.ajax({
         type:'post',
-        url:'http://localhost:3000/news2/news2',
+        url:HTTP+'news2/news2',
         success:function(data) {
             console.log(data);
             for(var i=0;i<data.length;i++){

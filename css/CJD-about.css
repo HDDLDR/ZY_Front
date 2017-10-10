@@ -27,7 +27,11 @@ input,button{border: 0;outline: none;}
     width: 1180px;
     height: 440px;
     margin-bottom: 48px;
-    background: url("../images/jt-banner.jpg") no-repeat center;
+    /*background: url("http://localhost:3000/images/jt-banner.jpg") no-repeat center;*/
+}
+.cjd-about-banner{
+    width: 100%;
+    height: 100%;
 }
 .cjd-about-left{
     padding-top: 34px;

@@ -24,7 +24,7 @@ $(function () {
             console.log(data);
             for(var i=0;i<data.length;i++){
                 $('.cjd-serone-img ul').eq(i).append(
-                    '<li>'+'<img src="'+HTTP+'/images/'+data[i].serimg+'" alt="">'+'</li>'+
+                    '<li>'+'<img src="'+HTTP+'images/'+data[i].serimg+'" alt="">'+'</li>'+
                     '<li>'+data[i].serhanzi+'</li>'+
                     '<li>'+data[i].serenglish+'</li>'
                 )

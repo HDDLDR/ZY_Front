@@ -9,7 +9,7 @@ $(function () {
         success:function(data) {
             console.log(data);
             for(var i=0;i<data.length;i++){
-                $('.cjd-team-list-wrap div a').eq(i).append('<img src="'+HTTP+'/images/'+data[i].teamimg+'" alt="">')
+                $('.cjd-team-list-wrap div a').eq(i).append('<img src="'+HTTP+'images/'+data[i].teamimg+'" alt="">')
             }
             for(var i=0;i<data.length;i++){
                 $('.cjd-team-list-wrap div ul').eq(i).append(
