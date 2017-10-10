@@ -1,5 +1,5 @@
   // ==============>  轮播图List
-	var MyDomain='http://localhost:3000/';
+	var MyDomain='http://192.168.43.112:3000/';
      $.ajax({
             type:'get',
             url:MyDomain+'HB/Home_bannerlist',
@@ -7,7 +7,7 @@
             success:function(X){
                      console.log(X);
                      X.map((item,k)=>{
-                     	$('#Banenr_List ul').append('<li><p><img src="'+MyDomain+'/images/Pic_'+item.picURL+'" alt="ZOE"/></p><div><h3>'+item.bTitle+'</h3><p>'+item.bTxt+'</p></div></li>')
+                     	$('#Banenr_List ul').append('<li><p><img src="'+MyDomain+'/images/Pic_'+item.picURL+'" alt="ZOE"/></p><div><h5>'+item.bTitle+'</h5><p>'+item.bTxt+'</p></div></li>')
                      })
                      	$('#Banenr_List ul').append('<li class="clear"></li>');
  			},error:function(){

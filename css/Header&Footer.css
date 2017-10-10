@@ -4,12 +4,12 @@
 	.bs-slider{ max-height:88%;}
 	.slide-text>h1{font-size: 40px;}
 	.item,.item img{height:100%;width: 100%;}
-	::-webkit-scrollbar{display: none;}
+	/*::-webkit-scrollbar{display: none;}*/
 
 	/**************************************** menu ***************************************************/
-	.header{ max-width:100%; min-width:100%;}
+	.header{ max-width:100%; min-width:100%;position: fixed;left: 0;top:0;background: #fff;z-index: 999}
 	#header{ width:96%;height:76px;margin:0 auto;}
-	#header #logo { margin-right: 80px;float:left;margin-top:18px;}
+	#header #logo { margin-right: 80px;float:left;margin-top:20px;}
 	#header #logo img { height: 32px;width:240px;}
 	#header .menu_nav{float:right;height:40px;margin-top:15px;width:600px;}
 	#header .menu_nav li{float:left; width:100px;margin-top: 0;cursor: pointer;}
@@ -19,7 +19,7 @@
 	#header .menu_nav li:hover a{color:#333; }
 	#header .menu_nav li:hover span{width:100%; }
 	#header .menu_nav li:nth-of-type(4) a{position: relative;}
-	#header .menu_nav .about_nav{width:180%;position: relative;top:20px;left:-30%;z-index: 0; }
+	#header .menu_nav .about_nav{width:180%;position: relative;top:20px;left:-30%;z-index: 0; opacity: 0}
 	#header .menu_nav .about_nav li{height:50px;width: 100%;padding:0 20px;background: #fff}
 	#header .menu_nav .about_nav li a{color:#999;display:block;height:50px;line-height:50px;font-size: 14px;width: 100%;
 										transition:0.5s;text-align: left;}

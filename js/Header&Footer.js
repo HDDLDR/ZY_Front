@@ -1,15 +1,17 @@
 	// ==============>  导航
-	var MyDomain='http://localhost:3000/';
+	var MyDomain='http://192.168.43.112:3000/';
        $.ajax({
             type:'get',
             url:MyDomain+'menu/mylist',
             database:'json',
-            success:function(x){
-                     // console.log(x);
-                     x.map((item,k)=>{
-                     	$('.menu_nav').append(`<li><a href="#">${item.content}</a><span></span></li>`);
+            success:function(X){
+                     // console.log(X);
+                     X.map((item,k)=>{
+                        console.log(item.meURL);
+                     	$('.menu_nav').append(`<li><a href="${item.meURL}">${item.content}</a><span></span></li>`);
                      });
-                     $('.menu_nav li:eq(3)').append('<ul class="about_nav "><li><a href="#">集团简介</a></li><li><a href="#">企业团队</a></li><li><a href="#">招聘人才</a></li></ul>')
+                     $('.menu_nav li:eq(3)').append('<ul class="about_nav "><li><a href="html/CJD-about.html">集团简介</a></li><li><a href="html/CJD-team.html">企业团队</a></li><li><a href="html/CJD-talents.html">招聘人才</a></li></ul>')
+
 
 			$('.menu_nav li:eq(3)').mouseover(function(){
 				$('.about_nav').addClass('animated bounceIn');
@@ -35,7 +37,7 @@
             url:MyDomain+'ZoeFooter/CPY_info',
             database:'json',
             success:function(x){
-                     console.log(x);
+                     // console.log(x);
                      x.map((item,k)=>{
                      	$('.companyInfo dl').prepend(`<dt>${item.cpyName}</dt><dd>地址：${item.cpyAddress}</dd>
                      		<dd>邮编：${item.Y_code}</dd>

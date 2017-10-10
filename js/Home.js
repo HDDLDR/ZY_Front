@@ -1,0 +1,52 @@
+  	var MyDomain='http://192.168.43.112:3000/';
+  // ==============>  轮播图Txt 主题图
+     $.ajax({
+            type:'get',
+            url:MyDomain+'HB/Home_bannerPic',
+            database:'json',
+            success:function(X){
+                     // console.log(X);
+                     X.map((item,k)=>{
+                      $('.item').eq(k).prepend(`<img src="${MyDomain}/images/Pic_${item.picURL}" alt="ZoeDesign"  class="slide-image"/>`);
+                      $('.item').eq(k).find('.slide-text').prepend(`<h1 data-animation="animated ${item.uTitleAnimate}">${item.bTitle}</h1><p data-animation="animated ${item.uConAnimate}">${item.bTxt}</p>`);
+                     })
+      },error:function(){
+              alert('出错了！');
+            }
+       })
+
+
+  // ==============>  轮播图List
+     $.ajax({
+            type:'get',
+            url:MyDomain+'HB/Home_bannerlist',
+            database:'json',
+            success:function(X){
+                     // console.log(X);
+                     X.map((item,k)=>{
+                     	$('#Banenr_List ul').append('<li><p><img src="'+MyDomain+'/images/Pic_'+item.picURL+'" alt="ZOE"/></p><div><h5>'+item.bTitle+'</h5><p>'+item.bTxt+'</p></div></li>')
+                     })
+                     	$('#Banenr_List ul').append('<li class="clear"></li>');
+ 			},error:function(){
+              alert('出错了！');
+            }
+       })
+
+
+
+  // ===============>  首页_热销推荐
+
+     $.ajax({
+            type:'get',
+            url:MyDomain+'HB/Home_recom',
+            database:'json',
+            success:function(X){
+                     console.log(X);
+                     X.map((item,k)=>{
+                     	$('.Recom>.RH_con').append('<li><p><img src="'+MyDomain+'/images/Pic_'+item.picURL+'" alt="ZOE"/></p><div><h5>'+item.bTitle+'</h5><p class="mmo">￥'+item.Money+'起</p></div></li>')
+                     })
+ 			},error:function(){
+              alert('出错了！');
+            }
+       })
+
