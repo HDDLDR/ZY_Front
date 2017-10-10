@@ -1,5 +1,6 @@
 
 <link href="../css/Header&Footer.css" rel="stylesheet" media="all">
+<link href="../css/animate.min.css" rel="stylesheet" media="all">
 
 	<!--header-nav-start-->
 	<div class="header">
