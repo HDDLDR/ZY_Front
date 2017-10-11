@@ -1,5 +1,5 @@
   // ==============>  轮播图List
-	var MyDomain='http://192.168.43.112:3000/';
+	var MyDomain='http://192.168.43.122:3000/';
      $.ajax({
             type:'get',
             url:MyDomain+'HB/Home_bannerlist',
@@ -18,7 +18,6 @@
 
 
   // ==============>  轮播图Txt 主题图
-  var MyDomain='http://localhost:3000/';
      $.ajax({
             type:'get',
             url:MyDomain+'HB/Home_bannerPic',

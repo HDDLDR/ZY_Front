@@ -1,5 +1,5 @@
 	// ==============>  导航
-	var MyDomain='http://localhost:3000/';
+	var MyDomain='http://192.168.43.122:3000/';
        $.ajax({
             type:'get',
             url:MyDomain+'menu/mylist',

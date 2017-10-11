@@ -1,6 +1,6 @@
 
 $(function () {
-    var MyDomain='http://localhost:3000/';
+    var MyDomain='http://192.168.43.122:3000/';
     var MsgArr_A=[],MsgArr_B=[],MsgArr_C=[];
     //全部
     $.ajax({

@@ -1,4 +1,4 @@
-  	var MyDomain='http://192.168.43.112:3000/';
+  	var MyDomain='http://192.168.43.122:3000/';
   // ==============>  轮播图Txt 主题图
      $.ajax({
             type:'get',
