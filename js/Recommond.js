@@ -27,33 +27,17 @@ $(function () {
                     meC();
 
 
-
-
-
-
-
-
-        },
-        error:function(){
-            console.log("错误");
-        }
-    });
-
-
-
-        function meA(){
-            MsgArr_A.map((item,k)=>{
-                // console.log(item.newsmouth)
- $('.cjd-news-right-wrap .rA').append('<div class="cjd-news-right-text clear"><h1 class="left"></h1><div class="cjd-news-right-text-data_A left clear">'+'<h5 class="left">'+item.newsmouth+'<br/>'+'<span>'+item.newsyears+'</span></h5>'+'<div class="cjd-news-right-text-new left">'+'<h4>'+item.newstitle+'</h4>'+ '<p>'+item.newscon+'</p>'+'</div>'+'<h2 class="left">→</h2></div></div>')
-            })
-
-        }
+            function meA(){
+                MsgArr_A.map((item,k)=>{
+                    // console.log(item.newsmouth)
+                 $('.cjd-news-right-wrap .rA').append('<div class="cjd-news-right-text clear"><h1 class="left"></h1><div class="cjd-news-right-text-data_A left clear">'+'<h5 class="left">'+item.newsmouth+'<br/>'+'<span>'+item.newsyears+'</span></h5>'+'<div class="cjd-news-right-text-new left">'+'<h4>'+item.newstitle+'</h4>'+ '<p>'+item.newscon+'</p>'+'</div>'+'<h2 class="left">→</h2></div></div>')
+                            })
+            }
 
             function meB(){
                             MsgArr_B.map((item,k)=>{
                 // console.log(item.newsmouth)
-             $('.cjd-news-right-wrap .rB').append('<div class="cjd-news-right-text clear"><h1 class="left"></h1><div class="cjd-news-right-text-data1 left clear">'+'<h5 class="left"><h5 class="left">'+item.newsmouth+'<br/>'+'<span>'+item.newsyears+'</span></h5>'+
-                                '<div class="cjd-news-right-text-new left">'+
+             $('.cjd-news-right-wrap .rB').append('<div class="cjd-news-right-text clear"><h1 class="left"></h1><div class="cjd-news-right-text-data1 left clear">'+'<h5 class="left"><h5 class="left">'+item.newsmouth+'<br/>'+'<span>'+item.newsyears+'</span></h5>'+'<div class="cjd-news-right-text-new left">'+
                                 '<h4>'+item.newstitle+'</h4>'+
                                 '<p>'+item.newscon+'</p>'+
                                 '</div>'+'<h2 class="left">→</h2></div></div>')
@@ -71,6 +55,20 @@ $(function () {
                 )
               }
    }
+
+
+
+
+
+        },
+        error:function(){
+            console.log("错误");
+        }
+    });
+
+
+
+
 
 
 

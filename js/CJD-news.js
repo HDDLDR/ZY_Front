@@ -2,7 +2,7 @@
  * Created by lenovo on 2017/9/20.
  */
 $(function () {
-    var HTTP='http://localhost:3000/';
+    var HTTP='http://192.168.43.122:3000/';
     //全部
     $.ajax({
         type:'post',
